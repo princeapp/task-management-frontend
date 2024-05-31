@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { AuthContext } from '../../context/AuthContext';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
@@ -79,6 +79,7 @@ const Register = () => {
           </Form>
         )}
       </Formik>
+      <Link to="/login">Login here</Link>
     </div>
   );
 };

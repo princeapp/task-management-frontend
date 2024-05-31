@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { AuthContext } from '../../context/AuthContext';
@@ -67,6 +67,7 @@ const Login = () => {
           Login
         </button>
       </form>
+      <Link to="/register">Register here</Link>
     </div>
   );
 };
