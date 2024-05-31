@@ -1,0 +1,84 @@
+/* Dashboard.css */
+
+/* Container styling */
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Section header styling */
+  .section-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Task table styling */
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-table th,
+  .task-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Date filter styling */
+  .date-filter {
+    margin-bottom: 20px;
+  }
+  
+  .date-filter label {
+    margin-right: 10px;
+  }
+  
+  .date-filter input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Priority badge styling */
+  .priority-low {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .priority-medium {
+    background-color: #ffc107;
+    color: #212529;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .priority-high {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  /* Category badge styling */
+  .category-badge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  /* Empty state message */
+  .empty-state {
+    font-style: italic;
+    color: #999;
+  }
+  
