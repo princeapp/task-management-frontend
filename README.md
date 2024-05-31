@@ -1,3 +1,9 @@
-# Go to the project folder root directory
-# Run the npm install command
-# Run the npm start command
+# Clone the repository
+git clone https://github.com/username/project.git
+
+# Install dependencies
+cd project
+npm install
+
+# Start the development server
+npm start
